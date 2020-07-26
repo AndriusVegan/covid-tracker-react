@@ -51,7 +51,7 @@ export const showDataOnMap = (data, casesType = "cases") =>
         <div className="info__container">
           <div
             className="info__flag"
-            style={{ backgroundImage: `ulr(${country.flag})` }}
+            style={{ backgroundImage: `url(${country.countryInfo.flag})` }}
           />
           <div className="info__name">{country.country}</div>
           <div className="info__confirmed">

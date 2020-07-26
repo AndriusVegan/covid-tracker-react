@@ -22,7 +22,7 @@
   border-radius: 5px;
 }
 
-info__flag {
+.info__flag {
   height: 80px;
   width: 100px;
   background-size: cover;
